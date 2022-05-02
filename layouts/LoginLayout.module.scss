@@ -1,0 +1,6 @@
+@use "sass:map";
+@use "styles/colors.scss";
+
+.layout__wrapper {
+  background-color: colors.getWithOpacity(colors.$primary, map.get(colors.$opacity, "3"));
+}
