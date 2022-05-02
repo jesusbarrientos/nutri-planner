@@ -8,14 +8,14 @@ const Login: NextPage = () => {
       <Container className="hl-page">
         <Stack spacing={6}>
           <Grid container justifyContent="center" mt={4}>
-            <Typography variant="h5">Herbalife Planner</Typography>
+            <Typography variant="h4">NutriPlanner</Typography>
           </Grid>
 
           <Grid container justifyContent="center">
             <Grid item xs sm={7} md={5} lg={4}>
               <Card>
                 <CardContent>
-                  <Typography variant="subtitle1" fontWeight="600">Inicio de sesión</Typography>
+                  <Typography variant="h6" fontWeight="600">Inicio de sesión</Typography>
 
                   { /* Login Form */ }
                   <Stack component="form" mt={2} spacing={2} autoComplete="off">
